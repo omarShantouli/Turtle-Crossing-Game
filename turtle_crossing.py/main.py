@@ -26,7 +26,6 @@ while game_on:
     if x == 1:
         car = Car()
         cars.append(car)
-        print(car.speed)
     for car in cars:
         car.move()
     for c in cars:
